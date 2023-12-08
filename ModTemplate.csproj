@@ -32,7 +32,6 @@
     </PropertyGroup>
     <ItemGroup>
         <Compile Include="ModClass.cs" />
-        <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <ItemGroup>
         <Content Include=".github\ISSUE_TEMPLATE\bug-report-en.yaml"/>
