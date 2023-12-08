@@ -35,6 +35,8 @@
         <Compile Include="Properties\AssemblyInfo.cs"/>
     </ItemGroup>
     <ItemGroup>
+        <Content Include=".github\ISSUE_TEMPLATE\bug-report-en.yaml"/>
+        <Content Include=".github\ISSUE_TEMPLATE\bug-report-zh.yaml"/>
       <Content Include="default_config.json" />
       <Content Include="icon.png" />
       <Content Include="Locales\cz.json" />
