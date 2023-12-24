@@ -31,9 +31,6 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
-        <Compile Include="ModClass.cs" />
-    </ItemGroup>
-    <ItemGroup>
         <Content Include=".github\ISSUE_TEMPLATE\bug-report-en.yaml"/>
         <Content Include=".github\ISSUE_TEMPLATE\bug-report-zh.yaml"/>
       <Content Include="default_config.json" />
