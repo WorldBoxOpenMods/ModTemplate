@@ -1,60 +1,40 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
-        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-        <ProjectGuid>{11C09ECE-47C9-4727-BF4E-6D1F9D409A88}</ProjectGuid>
-        <OutputType>Library</OutputType>
-        <AppDesignerFolder>Properties</AppDesignerFolder>
-        <RootNamespace>ModTemplate</RootNamespace>
-        <AssemblyName>ModTemplate</AssemblyName>
-        <FileAlignment>512</FileAlignment>
         <TargetFramework>net48</TargetFramework>
-    </PropertyGroup>
-    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-        <PlatformTarget>AnyCPU</PlatformTarget>
-        <DebugSymbols>true</DebugSymbols>
-        <DebugType>full</DebugType>
-        <Optimize>false</Optimize>
-        <OutputPath>bin\Debug\</OutputPath>
+        <LangVersion>11</LangVersion>
+        <ImplicitUsings>disable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <OutputType>Library</OutputType>
+        <RootNamespace>ModTemplate</RootNamespace>
         <DefineConstants>DEBUG;TRACE</DefineConstants>
-        <ErrorReport>prompt</ErrorReport>
-        <WarningLevel>4</WarningLevel>
     </PropertyGroup>
-    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-        <PlatformTarget>AnyCPU</PlatformTarget>
-        <DebugType>pdbonly</DebugType>
-        <Optimize>true</Optimize>
-        <OutputPath>bin\Release\</OutputPath>
-        <DefineConstants>TRACE</DefineConstants>
-        <ErrorReport>prompt</ErrorReport>
-        <WarningLevel>4</WarningLevel>
-    </PropertyGroup>
+
     <ItemGroup>
         <Content Include=".github\ISSUE_TEMPLATE\bug-report-en.yaml"/>
         <Content Include=".github\ISSUE_TEMPLATE\bug-report-zh.yaml"/>
-      <Content Include="default_config.json" />
-      <Content Include="icon.png" />
-      <Content Include="Locales\cz.json" />
-      <Content Include="Locales\en.json" />
-      <Content Include="mod.json" />
+        <Content Include="default_config.json"/>
+        <Content Include="icon.png"/>
+        <Content Include="Locales\cz.json"/>
+        <Content Include="Locales\en.json"/>
+        <Content Include="mod.json"/>
     </ItemGroup>
     <ItemGroup>
-      <Reference Include="Assembly-CSharp">
-        <HintPath>..\..\worldbox_Data\Managed\Assembly-CSharp.dll</HintPath>
-      </Reference>
+        <Reference Include="Assembly-CSharp">
+            <HintPath>..\..\worldbox_Data\Managed\Assembly-CSharp.dll</HintPath>
+        </Reference>
         <Reference Include="NeoModLoader">
             <HintPath>..\..\worldbox_Data\StreamingAssets\mods\NeoModLoader.dll</HintPath>
         </Reference>
-      <Reference Include="UnityEngine">
-        <HintPath>..\..\worldbox_Data\Managed\UnityEngine.dll</HintPath>
-      </Reference>
-      <Reference Include="UnityEngine.CoreModule">
-        <HintPath>..\..\worldbox_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
-      </Reference>
-      <Reference Include="UnityEngine.UI">
-        <HintPath>..\..\worldbox_Data\Managed\UnityEngine.UI.dll</HintPath>
-      </Reference>
+        <Reference Include="UnityEngine">
+            <HintPath>..\..\worldbox_Data\Managed\UnityEngine.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.CoreModule">
+            <HintPath>..\..\worldbox_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+        </Reference>
+        <Reference Include="UnityEngine.UI">
+            <HintPath>..\..\worldbox_Data\Managed\UnityEngine.UI.dll</HintPath>
+        </Reference>
     </ItemGroup>
 
 </Project>
