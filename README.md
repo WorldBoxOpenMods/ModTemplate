@@ -19,7 +19,7 @@ template.
 This is a template repository that you can use to create your own mod repository.
 
 We have also written an extensive tutorial which you can
-find [here](https://github.com/WorldBoxOpenMods/ModLoader/wiki/ModTutorialHome).
+find [here](https://worldboxopenmods.gitbook.io/mod-tutorial-en/make-mod/start).
 
 ## Changing some important things
 
